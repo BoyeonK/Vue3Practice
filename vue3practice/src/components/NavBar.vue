@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   top: 0;
+  z-index: 1;
 }
 .navBar-logo {
   width: 100px;

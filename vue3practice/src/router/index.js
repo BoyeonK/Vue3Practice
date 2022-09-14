@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import MainPageView from '../views/MainPage.vue'
 
 const routes = [
-//   {
-//     path: '/',
-//     name: 'MainPage',
-//     component: MainPageView
-//   },
+  {
+    path: '/',
+    name: 'MainPage',
+    component: MainPageView
+  },
 ]
 
 const router = createRouter({
